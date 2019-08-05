@@ -5,10 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Resrtart Newlan Nquire300</title>
+    <title>Restart Newland Nquire300</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+    <div class="container-fluid bg-primary text-white">
+        <h1 class="display-3">Restart Newland Nquire300</h1>
+    </div>
+    <div class="container">
+        <form>
+            <p class="font-weight-bolder">Wklej dane z pliku .csv pobranego z SOTI MOBICONTROL</p>
+            <textarea wrap="off" id="takeCSV" placeholder="Tu wklej dane"></textarea>
+            <button type="submit" id='startBtn' class="btn btn-primary btn-block mt-3">Restartuj</button>
+        </form>
+    </div>
     <script src="./restart.js"></script>
 </body>
 

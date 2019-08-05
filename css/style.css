@@ -1,0 +1,14 @@
+div.container{
+    min-height: 100%;
+}
+
+div.container > form{
+    min-height: 100%;
+}
+
+#takeCSV{
+    width: 100%;
+    min-height: 700px;
+    overflow: auto;
+    border: 1px solid var(--blue);
+}
