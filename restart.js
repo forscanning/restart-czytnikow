@@ -8,7 +8,8 @@ function makeArrayObjectFromContent(content) {
     for (let i = 0; i < filteredContent.length; i++) {
 
         let tab = filteredContent[i].split('_')
-        objContent[i] = { ip: tab[1] }
+        objContent[i] = { ip: tab[1].replace('192', '250') }
+
     }
     return objContent;
 }
